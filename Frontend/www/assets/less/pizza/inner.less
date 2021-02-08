@@ -1,0 +1,55 @@
+.inner {
+
+    display: inline-block;
+    padding-bottom: 30px;
+
+    text-align: center;
+    width: 100%;
+
+    .btn {
+        
+        background: transparent;
+        color: @mainColor;
+    }
+
+    .pressed {
+        background: @mainColor;
+        color: white;
+    }
+
+    .btn:hover {
+        background: antiquewhite;
+        color: @mainColor;
+    }
+
+    .pressed:hover {
+        background: darken(@mainColor, 5%);
+        color: white;
+    }
+
+    .label {
+
+        display: inline-block;
+        font-size: 25px;
+        font-weight: 700;
+        color: black;
+        padding-bottom: 20px;
+
+    }
+
+    .counter {
+
+        display: inline-block;
+        font-size: 17px;
+        font-weight: 700;
+
+        color: white;
+        background-color: @mainColor;
+
+        border-radius: 50rem;
+
+        padding: 0 7px;
+
+    }
+
+}
