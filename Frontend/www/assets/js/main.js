@@ -43,7 +43,7 @@ exports.createOrder = function(order_info, callback) {
 },{}],2:[function(require,module,exports){
 
 
-// my key - AIzaSyB-TZ12vi38BRxcnXm83S16V3nRV6X7cJM
+// my key - AIzaSyDlZ6fNVQvKN2huxr0sJJb6nVnNdBHvB0c
 
 var map;
 var pizzeria;
@@ -179,6 +179,8 @@ function geocodeAddress(address, callback) {
             }
         });
 }
+    
+    
 
 function calculateRoute(A_latlng, B_latlng, callback) {
 
@@ -190,7 +192,7 @@ function calculateRoute(A_latlng, B_latlng, callback) {
         travelMode: 'DRIVING'
     }, function (response, status) {
 
-        if (status == 'OK') {
+        if (status ==google.maps.DirectionsStatus.OK) {
 
             var leg = response.routes[0].legs[0];
 
@@ -603,7 +605,6 @@ function updateCart() {
 
         $header_cart.find(".button-clear").click(function () {
             //Збільшуємо кількість замовлених піц
-            console.log("Maks LOX, sry novaya paskhalo4ka :)");
             clearCart();
 
             //Оновлюємо відображення

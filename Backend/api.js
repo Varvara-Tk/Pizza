@@ -1,8 +1,8 @@
 /**
  * Created by chaika on 09.02.16.
  */
-var PUBLIC_LIQ_KEY = 'i81140805409';
-var PRIVATE_LIQ_KEY = 'MgmsisFwIvCzXm7klpJkU67rvWB3OAif4QLmtfWK';
+var PUBLIC_LIQ_KEY = 'i46124126680';
+var PRIVATE_LIQ_KEY = 'cikcy7JLbDZRW6R4a17hc6KpvFqAHG4tWCHKsO0q';
 
 var Pizza_List = require('./data/Pizza_List');
 

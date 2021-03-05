@@ -1,6 +1,6 @@
 
 
-// my key - AIzaSyB-TZ12vi38BRxcnXm83S16V3nRV6X7cJM
+// my key   AIzaSyDlZ6fNVQvKN2huxr0sJJb6nVnNdBHvB0c
 
 var map;
 var pizzeria;
